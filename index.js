@@ -1,1 +1,8 @@
-// Write your solution in this file!
+const employee = Object; {
+    name:[]
+    streetAddress:[]
+}
+
+function updateEmployeeWithKeyAndValue (employee, key, value){
+    return {...employee, [key]: value };
+}
